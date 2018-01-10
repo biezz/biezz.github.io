@@ -121,7 +121,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  life: /something/
+  something: /something/
   #sitemap: /sitemap.xml
   commonweal: /404.html
 
