@@ -214,8 +214,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/biezz
+  Weibo: https://weibo.com/u/2464846927?refer_flag=1001030102_&is_all=1
 
 
 # Social Links Icons
