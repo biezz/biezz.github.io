@@ -11,4 +11,4 @@ comments: ture
 
 * 你或许可以联系到我:
 
-> <i class="fa  fa-user"></i> 邮箱: [biezz@wangsu.com](biezz@wangsu.com)
+> <i class="fa  fa-user"></i> 邮箱: [biezz@wangsu.com](mailto:biezz@wangsu.com)
