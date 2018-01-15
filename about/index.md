@@ -1,6 +1,6 @@
 ---
-title: about
-layout: page
+title: About
+date: 2018-01-15 18:20:00
 comments: ture
 ---
 
