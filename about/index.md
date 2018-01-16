@@ -1,12 +1,11 @@
 ---
-title: 关于刀刀亮
-date: 2017-05-04 22:01:38
-comments: ture
+title: About
+date: 2018-01-15 18:20:00
 ---
 
-> 喜欢研究计算机世界的运行原理，喜欢信息透明的可视化，喜欢通过coding来表达我对这个世界的看法，喜欢在听着王菲的粤语歌创作代码。
-
+>  在中国的一个南方城市里，每天生活节奏紧凑，也许你会时常担心被这个城市淘汰掉。而在这个城市里有一个人，在这喧嚣的都市里喜欢安静，喜欢爬爬
+山，也喜欢折腾一些技术问题 。要保持一个学习的状态，相信通过努力在这个城市会有自己的收获。没错，这个人 It's me ！ ^-^
 
 * 你或许可以联系到我:
 
-> <i class="fa  fa-user"></i> 邮箱: [daodaoliang@yeah.net](mailto:daodaoliang@yeah.net)
+> <i class="fa  fa-user"></i> 邮箱: [biezz@wangsu.com](mailto:biezz@wangsu.com)
