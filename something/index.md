@@ -15,7 +15,7 @@ date: 2018-01-16 16:50:00
 	  </thead>
 	  <tbody>
 		<tr>
-		  <td style="text-align: center"><a href="/something/2018/2018-01-23.html">2018-01-19</a></td>
+		  <td style="text-align: center"><a href="/something/2018/2018-01-23">2018-01-19</a></td>
 		  <td style="text-align: center"><code class="highlighter-rouge">标题</code></td>
 		</tr>
 	  </tbody>
