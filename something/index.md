@@ -9,8 +9,8 @@ date: 2018-01-16 16:50:00
 	<table>
 	  <thead>
 		<tr>
-		  <th style="text-align: center">生命戳</th>
-		  <th style="text-align: center">一图志</th>
+		  <th style="text-align: center">时间</th>
+		  <th style="text-align: center">标题</th>
 		</tr>
 	  </thead>
 	  <tbody>
