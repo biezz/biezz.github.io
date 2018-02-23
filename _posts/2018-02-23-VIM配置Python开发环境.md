@@ -7,3 +7,26 @@ tags:
 - VIM
 ---
 
+### 实现目的
+　　VIM是一个强大而古老的编辑器，这里我们利用VIM来打造适合自己的Python开发环境，可能会涉及VIM其它的配置。
+
+### 环境准备
+1、CentOS Linux release 7.2.1511 (Core)  
+2、VIM - Vi IMproved 8.0  
+3、Python 2.7.5（自带）  
+
+### 实施配置
+1、升级VIM  
+　　由于CentOS系统自带的VIM版本是7.4，我们这里把它升级至8.0，避免版本太低出现其它问题。
+  
+  ```
+  [root@biezz ~]# yum remove vim -y
+  [root@biezz ~]# yum install ncurses-devel -y
+  [root@biezz ~]# git clone https://github.com/vim/vim.git
+  [root@biezz ~]# cd vim/src
+  [root@biezz ~]# make && make install           #这里有可能会出现缺少gcc而不能安装，如若出现，请yum安装gcc
+  [root@biezz ~]# vi /etc/profile
+  添加如下：
+  export PATH=$PATH:/usr/local/bin/vim
+  source /etc/profile
+ ```
