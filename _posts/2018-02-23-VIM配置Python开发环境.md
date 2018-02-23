@@ -56,3 +56,6 @@ filetype plugin indent on    " required
 VIM 编辑器执行:PluginInstall 
 命令行执行：vim +PluginInstall +qall
 ```
+**这里我们穿插一下关于VIM中粘贴代码，格式混乱的问题   
+
+VIM 中由于自动缩进，导致粘贴复制过来代码的时候，会有格式上的混乱，我们来执行 :set paste 来解决这个问题，当然你也可以加到vim的配置文件中
