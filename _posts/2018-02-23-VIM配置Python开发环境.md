@@ -23,7 +23,7 @@ tags:
   [root@biezz ~]# yum install ncurses-devel -y
   [root@biezz ~]# git clone https://github.com/vim/vim.git
   [root@biezz ~]# cd vim/src
-  [root@biezz ~]# make && make install           #这里有可能会出现缺少gcc而不能安装，如若出现，请yum安装gcc
+  [root@biezz ~]# make && make install  #这里有可能会出现缺少gcc而不能安装，如若出现，请yum安装gcc
   [root@biezz ~]# vi /etc/profile
   添加如下：
   export PATH=$PATH:/usr/local/bin/vim
