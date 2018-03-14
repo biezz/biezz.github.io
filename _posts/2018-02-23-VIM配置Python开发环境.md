@@ -79,3 +79,7 @@ VIM 编辑器执行`:PluginInstall `
 **这里我们穿插一下关于VIM中粘贴代码，格式混乱的问题   
 
 VIM 中由于自动缩进，导致粘贴复制过来代码的时候，会有格式上的混乱，我们来执行 `:set paste` 来解决这个问题，当然你也可以加到vim的配置文件中
+  
+3、安装YouCompleteMe自动补全插件，我们从最难的开始，这个插件的安装很容易出各种各样的错，相信多次尝试你会解决的。  
+在.vimrc文件中添加:` Bundle 'Valloric/YouCompleteMe' `，然后执行：PluginInstall
+
