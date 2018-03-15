@@ -81,5 +81,15 @@ VIM 编辑器执行`:PluginInstall `
 VIM 中由于自动缩进，导致粘贴复制过来代码的时候，会有格式上的混乱，我们来执行 `:set paste` 来解决这个问题，当然你也可以加到vim的配置文件中
   
 3、安装YouCompleteMe自动补全插件，我们从最难的开始，这个插件的安装很容易出各种各样的错，相信多次尝试你会解决的。  
-在.vimrc文件中添加:` Bundle 'Valloric/YouCompleteMe' `，然后执行：PluginInstall
+在.vimrc文件中添加:` Bundle 'Valloric/YouCompleteMe' `，然后执行：PluginInstall  
+然后开始手动编译：
+```
+[root@biezz vim-master]# cd ~/.vim/bundle/YouCompleteMe/
+[root@biezz YouCompleteMe]# ./install.py --clang-completer   #编译支持C语言家族的语法特性
+[root@biezz YouCompleteMe]# ./install.py --all               #编译支持所有语言的语法特性
+如果安装时遇到这个问题：gmake[3]: 警告：检测到时钟错误。您的创建可能是不完整的。 请更新时间
+[root@biezz YouCompleteMe]# ntpdate cn.pool.ntp.org
 
+let g:ycm_autoclose_preview_window_after_completion=1    #操作完成后，自动补全窗口不会消失
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>    #定义了“转到定义”的快捷方式
+```
