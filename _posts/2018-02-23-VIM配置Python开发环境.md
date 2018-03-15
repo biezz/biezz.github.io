@@ -146,4 +146,14 @@ Plugin 'tmhedberg/SimpylFold'
 ![代码折叠](/images/2018031503.png)  
 
 6、自动缩进  
-`Plugin 'vim-scripts/indentpython.vim'`
+`Plugin 'vim-scripts/indentpython.vim'`  
+
+7、语法检查/高亮  
+```
+Plugin 'scrooloose/syntastic'
+Plugin 'nvie/vim-flake8'
+let python_highlight_all=1
+syntax on
+```
+效果如下：  
+![语法检查](/images/2018031504.png)
