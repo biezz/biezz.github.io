@@ -121,30 +121,5 @@ let g:ycm_complete_in_strings = 1
 "注释和字符串中的文字也会被收入补全
 let g:ycm_collect_identifiers_from_comments_and_strings = 0
 ```
-安装完成后，会有如下效果：
-```
-import sys          
-from datetime import datetime
-                    
-CERT_EXPIRES = "2018-07-01"
-                    
-def check_version():
-    v = sys.version_info
-    if v.major == 3 and v.minor >= 5:
-    print('Your current python is %d.%d. Please use Python 3.6.' % (v.major, v.minor))
-    exit(1)         
-                    
-def check_cert():   
-    today = datetime.n
-                     now               def now                 
-~                    __ne__            def __ne__                                        
-~                    __new__           def __new__                                       
-~                    __name__          instance __name__                                 
-~                    min               instance min                                      
-~                    month             instance month                                    
-~                    minute            instance minute                                   
-~                    tzname            def tzname                                        
-~                    tzinfo            instance tzinfo                                   
-~                    utcnow            def utcnow                                        
-~                    __init__          def __init__                                      
-```
+安装完成后，会有如下效果：  
+  ![自动补全](/images/2018031501.png)
