@@ -122,4 +122,25 @@ let g:ycm_complete_in_strings = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 0
 ```
 安装完成后，会有如下效果：  
-  ![自动补全](/images/2018031501.png)
+  ![自动补全](/images/2018031501.png)  
+
+4、目录树插件nerdtree：
+```
+"设置按F2启动NerdTree
+map <F2> :NERDTreeToggle<CR>
+"隐藏目录树中的.pyc文件
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+```
+效果如下：
+![目录树](/images/2018031502.png)
+
+5、代码折叠
+```
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+Plugin 'tmhedberg/SimpylFold'
+```
+效果如下：
+![代码折叠](/images/2018031503.png)
