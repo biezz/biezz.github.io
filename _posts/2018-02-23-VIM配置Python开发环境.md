@@ -142,5 +142,8 @@ set foldlevel=99
 nnoremap <space> za
 Plugin 'tmhedberg/SimpylFold'
 ```
-效果如下：
-![代码折叠](/images/2018031503.png)
+效果如下：  
+![代码折叠](/images/2018031503.png)  
+
+6、自动缩进  
+`Plugin 'vim-scripts/indentpython.vim'`
