@@ -168,14 +168,14 @@ darkblue.vim  elflord.vim   morning.vim  README.txt     torte.vim
 default.vim   evening.vim   murphy.vim   ron.vim        zellner.vim
 delek.vim     industry.vim  pablo.vim    shine.vim
 ```
-9、其它的一些配置  
+9、其它的一些配置  
 支持UTF-8编码：`set encoding=utf-8`  
 横向打开一个文件：`:sv <filename>`   #可以配合tab键使用  
-纵向打开一个文件：`:vs <filename>`  
-指定在屏幕上面的布局：    
+纵向打开一个文件：`:vs <filename>`  
+指定在屏幕上面的布局：  
 `set splitbelow`  
 `set splitright`  
-
+   
 配合快捷键使用：    
 ```
 nnoremap <C-J> <C-W><C-J>
