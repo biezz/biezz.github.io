@@ -157,3 +157,29 @@ syntax on
 ```
 效果如下：  
 ![语法检查](/images/2018031504.png)
+
+8、配色方案  
+我觉得自带配色方案：darkblue 就挺好有，在vimrc中添加 `:colorscheme darkblue` 
+```
+[root@biezz colors]# cd /usr/local/share/vim/vim80/colors      #这个目录下展示都有哪些配色方案可以选
+[root@biezz colors]# ls
+blue.vim      desert.vim    koehler.vim  peachpuff.vim  slate.vim
+darkblue.vim  elflord.vim   morning.vim  README.txt     torte.vim
+default.vim   evening.vim   murphy.vim   ron.vim        zellner.vim
+delek.vim     industry.vim  pablo.vim    shine.vim
+```
+9、其它的一些配置  
+支持UTF-8编码：`set encoding=utf-8`  
+横向打开一个文件：`:sv <filename>`   #可以配合tab键使用  
+纵向打开一个文件：`:vs <filename>`  
+指定在屏幕上面的布局：    
+`set splitbelow`  
+`set splitright`  
+
+配合快捷键使用：    
+```
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+```
