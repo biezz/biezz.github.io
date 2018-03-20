@@ -183,4 +183,4 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 ```
-这些是简单的基本配置，可以参考：https://github.com/biezz/vim-config/blob/master/vim-config
+这些是简单的基本配置，可以参考：[vim-config](https://github.com/biezz/vim-config/blob/master/vim-config)
