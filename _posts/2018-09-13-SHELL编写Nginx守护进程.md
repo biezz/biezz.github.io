@@ -44,5 +44,6 @@ vim /etc/init.d/deamon.sh
 #description: This is a Daemon
 #author: biezz
 #date: 2018-08-03
+
 /root/deamon/deamon.sh >>/root/deamon/deamon.log 2>&1 &
 ```
