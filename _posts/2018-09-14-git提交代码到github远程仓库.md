@@ -75,12 +75,12 @@ tags:
     ```
     
   3、以上就是首次提交的步骤，如果是我们修改了或者新增了一个文件，可以参考下面：
+  
     ```
     Administrator@SC-201805251712 MINGW64 ~/Desktop/biezz (master)
     $ git status
     On branch master
     Your branch is up to date with 'origin/master'.
-
     Changes not staged for commit:
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
