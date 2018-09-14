@@ -15,6 +15,7 @@ tags:
     
     
   2、在桌面上创建文件夹，命名为biezz,假设这个文件夹是我们的工作目录,打开git工具
+  
     ```
     Administrator@SC-201805251712 MINGW64 ~/Desktop/python (master)
     $ cd /c/Users/Administrator/Desktop/biezz
