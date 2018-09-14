@@ -116,4 +116,4 @@ tags:
        4b838ef..2288ee1  master -> master
     ```
  4、如下图所示
-   [效果](/imange/2018091402.png)
+   [效果](/images/2018091402.png)
