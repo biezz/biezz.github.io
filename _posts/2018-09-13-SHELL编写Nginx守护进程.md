@@ -7,7 +7,7 @@ tags:
 - shell
 ---
 
-### 实现目录
+### 实现目的
 监控nginx进程，当发现nginx进程down掉，可以自动启动nginx服务。
 ```
 #/bin/bash
